@@ -1,0 +1,64 @@
+@font-face{
+    font-family: 'Azalea';
+    src: url('Font/Azalea.otf');
+    src: url('Font/Azalea.otf') format('opentype');
+}
+
+body{
+    font-family: 'Azalea';
+    /*background-color: #95d8ff;*/
+}
+
+.card{
+    width:80%;
+    border-color:#297fc2;
+    margin-left: 5%;
+    border-width: 3px;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 8px #297fc2;
+    transform: scale(1.02);
+}
+
+
+
+#mission{
+    float:left;
+    width:40%;
+    margin-top: 4%;
+}
+
+#vision{
+    float:right;
+    width:40%;
+    margin-top: 4%;
+}
+
+.form-control{
+    border-radius: 20px;
+    border-color: #297fc2;
+    border-width: 6px;
+}
+
+.navbar{
+    color:royalblue;
+}
+
+.btn{
+    background-color:#ff914d;
+}
+
+.table{
+    background-color: #297fc2;
+    margin-top:2%;
+    color:white;
+    margin-bottom: 0px;
+}
+
+tbody > tr > td > a{
+    color:white;
+}
+thead > tr > th > a{
+    color:white;
+}

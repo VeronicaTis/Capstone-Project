@@ -1,0 +1,61 @@
+@font-face{
+    font-family: 'Azalea';
+    src: url('Font/Azalea.otf');
+    src: url('Font/Azalea.otf') format('opentype');
+}
+
+body{
+    font-family: 'Azalea';
+    /*background-color: #95d8ff;*/
+    background-color: transparent;
+}
+
+
+.form-control{
+    border-radius: 20px;
+    border-color: #297fc2;
+    border-width: 6px;
+}
+
+.btn{
+    background-color:#ff914d;
+}
+
+
+
+.wrds{
+    font-size: 20px;
+    border: 3px solid  #297fc2;
+    padding: 30px;
+    border-radius: 10%;
+}
+
+.box4{
+    padding: 20px;
+}
+
+.bck{
+    z-index:-20;
+    position: fixed;
+    width:100%;
+    color:transparent;
+    height:100%;
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 0.575);
+}
+
+.table{
+    background-color: #297fc2;
+    margin-top:2%;
+    color:white;
+    margin-bottom: 0px;
+}
+
+tbody > tr > td > a{
+    color:white;
+}
+thead > tr > th > a{
+    color:white;
+}

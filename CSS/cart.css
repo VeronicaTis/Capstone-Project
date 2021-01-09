@@ -1,0 +1,106 @@
+@font-face{
+    font-family: 'Azalea';
+    src: url('Font/Azalea.otf');
+    src: url('Font/Azalea.otf') format('opentype');
+}
+body{
+    font-family: 'Azalea';
+}
+.cartBod{
+    margin-left: 80%;
+    z-index: 4;
+    background-color: rgb(255, 255, 255); 
+    width: 20%;
+    position: fixed;
+    float: right;
+    border: 2px solid #297fc2;
+    top:11%;
+}
+
+.purchBod{
+    z-index: 10000000000000000000;
+    background-color: rgb(255, 255, 255); 
+    width: 60%;
+    position: fixed;
+    border: 2px solid #ff914d;
+    margin-left:20%;
+    height:80%;
+    top:15%;
+    padding-top: 4%;
+    padding-left:2%;
+    padding-right:2%;
+    border-radius:5%;
+}
+
+.card-img-top{
+    width:50%;
+    margin-left:25%;
+}
+
+.card{
+    width:80%;
+    border-color: #297fc2;
+    margin-left: 5%;
+    border-width: 3px;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 8px #297fc2;
+    transform: scale(1.1);
+}
+
+.carousel-item{
+    height:20%;
+}
+
+h3{
+    color:#ff914d;
+    font-size: 50px;
+    text-shadow:2px 2px #297fc2;
+}
+.price{
+    color: black;
+    font-size: 30px;
+    text-shadow: none;
+}
+
+.form-control{
+    border-radius: 20px;
+    border-color: #297fc2;
+    border-width: 6px;
+}
+
+.card-link{
+    color: #ff914d;
+}
+
+.card-link:hover{
+    color: #eb6817;
+}
+
+.btn{
+    background-color:#ff914d;
+}
+
+.bm{
+    text-decoration: none;
+    color:white;
+}
+
+.carousel{
+    height: 350px;
+}
+
+.table{
+    background-color: #297fc2;
+    margin-top:2%;
+    color:white;
+    margin-bottom: 0px;
+}
+
+tbody > tr > td > a{
+    color:white;
+}
+thead > tr > th > a{
+    color:white;
+}

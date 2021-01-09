@@ -1,0 +1,51 @@
+@font-face{
+    font-family: 'Maxmilo';
+    src: url('Font/MaxmiloDemoRegular.ttf');
+    src: url('Font/MaxmiloDemoRegular.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'Azalea';
+    src: url('Font/Azalea.otf');
+    src: url('Font/Azalea.otf') format('opentype');
+}
+
+body{
+    font-family: 'Azalea';
+}
+.idwbh{
+    width:60%;
+    margin-left: 20%;
+    font-family: 'Azalea';
+}
+.form-control{
+    border-radius: 20px;
+    border-color: #297fc2;
+    border-width: 6px;
+}
+.tite{
+    font-size: 20px;
+    margin-bottom:1px;
+    
+}
+
+.btn{
+    background-color:#ff914d;
+}
+
+.card-header{
+    color:#ff914d;
+}
+
+.table{
+    background-color: #297fc2;
+    margin-top:2%;
+    color:white;
+    margin-bottom: 0px;
+}
+
+tbody > tr > td > a{
+    color:white;
+}
+thead > tr > th > a{
+    color:white;
+}
